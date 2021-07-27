@@ -12,7 +12,7 @@ class GoogleGeocoding implements Geocoding {
 
   final String apiKey;
   final String? language;
-  final Map<String, Object>? headers;
+  final Map<String, String>? headers;
 
   GoogleGeocoding(
     this.apiKey, {
