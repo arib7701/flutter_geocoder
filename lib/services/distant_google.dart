@@ -2,9 +2,10 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:core';
 
-import 'package:geocoder/model.dart';
-import 'package:geocoder/services/base.dart';
+import '../model.dart';
+import 'base.dart';
 import 'package:http/http.dart' as http;
+
 
 /// Geocoding and reverse geocoding through requests to Google APIs.
 class GoogleGeocoding implements Geocoding {
